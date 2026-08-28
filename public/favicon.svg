@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#00dc82"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0b0e16"/>
+  <text x="32" y="43" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="url(#g)">AM</text>
+  <rect x="14" y="50" width="8" height="3" rx="1.5" fill="#e10600"/>
+  <rect x="26" y="50" width="8" height="3" rx="1.5" fill="#22d3ee"/>
+  <rect x="38" y="50" width="8" height="3" rx="1.5" fill="#00dc82"/>
+</svg>
