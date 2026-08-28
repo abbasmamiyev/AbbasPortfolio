@@ -62,8 +62,7 @@ function go(id: string) {
   <header class="nav" :class="{ 'nav--scrolled': scrolled }">
     <div class="nav__inner container">
       <a class="nav__logo" href="#" @click.prevent="go('hero')">
-        <span class="nav__mark">AM</span>
-        <span class="nav__logo-dot"></span>
+        <span class="nav__logo-tag">&lt;</span><span class="nav__mark">abbas</span><span class="nav__logo-tag">/&gt;</span>
       </a>
 
       <nav class="nav__links" aria-label="Main">
@@ -155,10 +154,9 @@ function go(id: string) {
 .nav__logo {
   display: inline-flex;
   align-items: baseline;
-  gap: 4px;
   font-family: var(--font-mono);
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   letter-spacing: -0.02em;
 }
 
@@ -169,13 +167,14 @@ function go(id: string) {
   -webkit-text-fill-color: transparent;
 }
 
-.nav__logo-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--dev-1);
-  align-self: flex-end;
-  margin-bottom: 6px;
+.nav__logo-tag {
+  color: var(--text-3);
+  font-weight: 500;
+  transition: color 0.25s ease;
+}
+
+.nav__logo:hover .nav__logo-tag {
+  color: var(--dev-1);
 }
 
 .nav__links {

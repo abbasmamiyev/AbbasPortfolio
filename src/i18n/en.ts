@@ -343,9 +343,9 @@ export default {
     },
     langsTitle: 'Languages',
     langs: [
-      { name: 'Azerbaijani', level: 'Native', pct: 100 },
-      { name: 'Russian', level: 'Conversational', pct: 70 },
-      { name: 'English', level: 'Working proficiency', pct: 60 }
+      { name: 'Azerbaijani', level: 'Native' },
+      { name: 'English', level: 'Working proficiency' },
+      { name: 'Russian', level: 'Basic' }
     ]
   },
   contact: {

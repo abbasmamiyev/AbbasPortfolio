@@ -343,9 +343,9 @@ export default {
     },
     langsTitle: 'Dillər',
     langs: [
-      { name: 'Azərbaycan dili', level: 'Ana dili', pct: 100 },
-      { name: 'Rus dili', level: 'Danışıq səviyyəsi', pct: 70 },
-      { name: 'İngilis dili', level: 'İş səviyyəsi', pct: 60 }
+      { name: 'Azərbaycan dili', level: 'Ana dili' },
+      { name: 'İngilis dili', level: 'İş səviyyəsi' },
+      { name: 'Rus dili', level: 'Başlanğıc səviyyə' }
     ]
   },
   contact: {

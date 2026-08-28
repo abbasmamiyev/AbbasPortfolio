@@ -4,8 +4,8 @@ import { useI18n } from 'vue-i18n'
 
 const { t, tm, rt } = useI18n()
 
-const langs = computed<{ name: string; level: string; pct: number }[]>(() =>
-  (tm('edu.langs') as any[]).map(l => ({ name: rt(l.name), level: rt(l.level), pct: Number(rt(l.pct)) }))
+const langs = computed<{ name: string; level: string }[]>(() =>
+  (tm('edu.langs') as any[]).map(l => ({ name: rt(l.name), level: rt(l.level) }))
 )
 </script>
 
@@ -52,9 +52,6 @@ const langs = computed<{ name: string; level: string; pct: number }[]>(() =>
             <div class="edu__lang-row">
               <span class="edu__lang-name">{{ l.name }}</span>
               <span class="edu__lang-level">{{ l.level }}</span>
-            </div>
-            <div class="edu__bar">
-              <div class="edu__bar-fill" :style="{ width: l.pct + '%' }"></div>
             </div>
           </div>
         </article>
@@ -117,37 +114,32 @@ const langs = computed<{ name: string; level: string; pct: number }[]>(() =>
 }
 
 .edu__lang {
-  margin-top: 16px;
+  margin-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.edu__lang:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .edu__lang-row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 7px;
+  align-items: baseline;
+  gap: 12px;
 }
 
 .edu__lang-name {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.94rem;
 }
 
 .edu__lang-level {
-  font-size: 0.78rem;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
   color: var(--text-3);
-}
-
-.edu__bar {
-  height: 6px;
-  border-radius: 4px;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  overflow: hidden;
-}
-
-.edu__bar-fill {
-  height: 100%;
-  border-radius: 4px;
-  background: var(--grad-brand);
 }
 
 @media (max-width: 920px) {

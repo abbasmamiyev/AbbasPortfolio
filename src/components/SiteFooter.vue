@@ -10,7 +10,7 @@ const year = new Date().getFullYear()
     <div class="checkers footer__checkers" aria-hidden="true"></div>
     <div class="container footer__inner">
       <div class="footer__brand">
-        <span class="footer__mark">AM</span>
+        <span class="footer__mark"><span class="footer__tag">&lt;</span>abbas<span class="footer__tag">/&gt;</span></span>
         <span class="footer__name">Abbas Məmiyev</span>
       </div>
       <p class="footer__made">
@@ -55,11 +55,16 @@ const year = new Date().getFullYear()
 .footer__mark {
   font-family: var(--font-mono);
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   background: var(--grad-brand);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.footer__tag {
+  -webkit-text-fill-color: var(--text-3);
+  font-weight: 500;
 }
 
 .footer__name {
