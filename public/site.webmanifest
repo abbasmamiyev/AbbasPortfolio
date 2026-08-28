@@ -1,0 +1,17 @@
+{
+  "name": "Abbas Məmiyev — Portfolio",
+  "short_name": "Abbas AM",
+  "description": "Frontend Developer (Vue / Nuxt) və F1 Paddock Security Specialist",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07090f",
+  "theme_color": "#07090f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

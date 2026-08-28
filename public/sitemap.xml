@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://abbasmamiyev.netlify.app/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abbasmamiyev.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="az" href="https://abbasmamiyev.netlify.app/?lang=az" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abbasmamiyev.netlify.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://abbasmamiyev.netlify.app/?lang=ru" />
+    <lastmod>2026-08-28</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://abbasmamiyev.netlify.app/?lang=az</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abbasmamiyev.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="az" href="https://abbasmamiyev.netlify.app/?lang=az" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abbasmamiyev.netlify.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://abbasmamiyev.netlify.app/?lang=ru" />
+    <lastmod>2026-08-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abbasmamiyev.netlify.app/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abbasmamiyev.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="az" href="https://abbasmamiyev.netlify.app/?lang=az" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abbasmamiyev.netlify.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://abbasmamiyev.netlify.app/?lang=ru" />
+    <lastmod>2026-08-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abbasmamiyev.netlify.app/?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abbasmamiyev.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="az" href="https://abbasmamiyev.netlify.app/?lang=az" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://abbasmamiyev.netlify.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://abbasmamiyev.netlify.app/?lang=ru" />
+    <lastmod>2026-08-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

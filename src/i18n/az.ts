@@ -1,4 +1,9 @@
 export default {
+  meta: {
+    title: 'Abbas Məmiyev — Frontend Developer (Vue və Nuxt) · F1 Paddock Security',
+    description:
+      'Vue.js və Nuxt.js üzrə frontend developer və Formula 1 Paddock Security Specialist. Bakı, Azərbaycan. 4+ il təcrübə: çoxdilli veb tətbiqlər, SSR, performans.'
+  },
   nav: {
     about: 'Haqqımda',
     dev: 'Development',

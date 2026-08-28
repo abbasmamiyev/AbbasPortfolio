@@ -1,4 +1,9 @@
 export default {
+  meta: {
+    title: 'Abbas Mamiyev — Frontend Developer (Vue and Nuxt) · F1 Paddock Security',
+    description:
+      'Frontend developer specializing in Vue.js and Nuxt.js, and Formula 1 Paddock Security Specialist based in Baku, Azerbaijan. 4+ years building fast, multilingual web apps.'
+  },
   nav: {
     about: 'About',
     dev: 'Development',

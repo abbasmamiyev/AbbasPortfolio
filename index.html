@@ -3,20 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abbas Məmiyev — Frontend Developer · Vue & Nuxt · F1 Paddock Security</title>
-    <meta name="description" content="Abbas Məmiyev — Frontend Developer (Vue.js / Nuxt.js) və Formula 1 Paddock Security Specialist. Bakı, Azərbaycan." />
+    <title>Abbas Məmiyev — Frontend Developer (Vue və Nuxt) · F1 Paddock Security</title>
+    <meta name="description" content="Vue.js və Nuxt.js üzrə frontend developer və Formula 1 Paddock Security Specialist. Bakı, Azərbaycan. 4+ il təcrübə: çoxdilli veb tətbiqlər, SSR, performans." />
     <meta name="author" content="Abbas Məmiyev" />
+    <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#07090f" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Abbas Məmiyev — Frontend Developer & F1 Paddock Security" />
+    <!-- SITE_URL: deploy-dan sonra bu domeni real ünvanla əvəz et (robots.txt və sitemap.xml-də də) -->
+    <link rel="canonical" href="https://abbasmamiyev.netlify.app/" />
+    <link rel="alternate" hreflang="x-default" href="https://abbasmamiyev.netlify.app/" />
+    <link rel="alternate" hreflang="az" href="https://abbasmamiyev.netlify.app/?lang=az" />
+    <link rel="alternate" hreflang="en" href="https://abbasmamiyev.netlify.app/?lang=en" />
+    <link rel="alternate" hreflang="ru" href="https://abbasmamiyev.netlify.app/?lang=ru" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://abbasmamiyev.netlify.app/" />
+    <meta property="og:site_name" content="Abbas Məmiyev — Portfolio" />
+    <meta property="og:title" content="Abbas Məmiyev — Frontend Developer (Vue və Nuxt) · F1 Paddock Security" />
     <meta property="og:description" content="Vue.js / Nuxt.js Frontend Developer · Formula 1 Paddock Security Specialist · Baku City Circuit" />
-    <meta property="og:image" content="/images/abbas.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://abbasmamiyev.netlify.app/images/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Abbas Məmiyev" />
+    <meta property="og:locale" content="az_AZ" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ru_RU" />
 
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Abbas Məmiyev — Frontend Developer · F1 Paddock Security" />
+    <meta name="twitter:description" content="Vue.js / Nuxt.js Frontend Developer · Formula 1 Paddock Security Specialist · Baku" />
+    <meta name="twitter:image" content="https://abbasmamiyev.netlify.app/images/og.jpg" />
+
+    <!-- Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="/images/abbas.webp" type="image/webp" fetchpriority="high" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
       rel="stylesheet"
@@ -27,9 +52,15 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Abbas Məmiyev",
+        "alternateName": ["Abbas Mamiyev", "Аббас Мамиев"],
         "jobTitle": "Frontend Developer",
-        "knowsAbout": ["Vue.js", "Nuxt.js", "TypeScript", "Event Security Operations"],
+        "description": "Frontend developer specializing in Vue.js and Nuxt.js; Formula 1 Paddock Security Specialist at Baku City Circuit.",
+        "url": "https://abbasmamiyev.netlify.app/",
+        "image": "https://abbasmamiyev.netlify.app/images/og.jpg",
+        "knowsAbout": ["Vue.js", "Nuxt.js", "TypeScript", "JavaScript", "Frontend Development", "Event Security Operations"],
+        "knowsLanguage": ["az", "ru", "en"],
         "worksFor": { "@type": "Organization", "name": "New Media Azerbaijan" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Azerbaijan State University of Culture and Fine Arts" },
         "address": { "@type": "PostalAddress", "addressLocality": "Baku", "addressCountry": "AZ" },
         "sameAs": ["https://www.linkedin.com/in/vahidoghlu/"]
       }
@@ -37,6 +68,11 @@
   </head>
   <body>
     <div id="app"></div>
+    <noscript>
+      <h1>Abbas Məmiyev</h1>
+      <p>Frontend Developer (Vue.js / Nuxt.js) · Formula 1 Paddock Security Specialist · Baku, Azerbaijan.</p>
+      <p><a href="https://www.linkedin.com/in/vahidoghlu/">LinkedIn</a></p>
+    </noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

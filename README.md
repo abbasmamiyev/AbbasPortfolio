@@ -56,6 +56,20 @@ src/
 └── directives/      # v-reveal scroll animasiyası
 ```
 
+## SEO
+
+Sayt tam SEO hazırlığı ilə gəlir: canonical, hreflang (az/en/ru), Open Graph + Twitter kartları, JSON-LD Person schema, `robots.txt`, `sitemap.xml`, `site.webmanifest`, WebP şəkillər, dinamik title/description (dilə görə dəyişir), `?lang=` parametrli paylaşıla bilən dil linkləri.
+
+**Deploy-dan sonra MÜTLƏQ:** `abbasmamiyev.netlify.app` placeholder domenini real ünvanınla əvəz et — 3 faylda:
+1. `index.html` (canonical, hreflang, og:url, og:image, JSON-LD)
+2. `public/robots.txt` (Sitemap sətri)
+3. `public/sitemap.xml` (bütün URL-lər)
+
+Sonra:
+1. [Google Search Console](https://search.google.com/search-console)-a saytı əlavə et (domen təsdiqi Netlify DNS-dən asan olur)
+2. Sitemap göndər: `https://SENIN-DOMENIN/sitemap.xml`
+3. LinkedIn və GitHub profilinə sayt linkini qoy (ən güclü backlink mənbəyi)
+
 ## Qeydlər
 
 - Rus dili səviyyəsi («Danışıq»), ingilis dili səviyyəsi («İş səviyyəsi») və hərbi xidmət dövrü (2019–2020) təxmini yazılıb — `src/i18n/*.ts` fayllarında dəqiqləşdirə bilərsən.

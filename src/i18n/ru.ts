@@ -1,4 +1,9 @@
 export default {
+  meta: {
+    title: 'Аббас Мамиев — Frontend-разработчик (Vue и Nuxt) · F1 Paddock Security',
+    description:
+      'Frontend-разработчик на Vue.js и Nuxt.js и специалист по безопасности паддока Формулы-1. Баку, Азербайджан. 4+ года опыта: многоязычные веб-приложения, SSR, производительность.'
+  },
   nav: {
     about: 'Обо мне',
     dev: 'Разработка',

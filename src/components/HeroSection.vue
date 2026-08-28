@@ -130,7 +130,10 @@ function go(id: string) {
         <div class="hero__photo-wrap" :style="{ transform: `rotateY(${tilt.x}deg) rotateX(${tilt.y}deg)` }">
           <div class="hero__photo-glow"></div>
           <div class="hero__photo">
-            <img src="/images/abbas.jpg" alt="Abbas Məmiyev" width="520" height="520" fetchpriority="high" />
+            <picture>
+              <source srcset="/images/abbas.webp" type="image/webp" />
+              <img src="/images/abbas.jpg" alt="Abbas Məmiyev — Frontend Developer" width="900" height="900" fetchpriority="high" />
+            </picture>
           </div>
 
           <div class="hero__chip hero__chip--vue">
@@ -329,6 +332,12 @@ function go(id: string) {
   border: 1px solid var(--border-strong);
   background: var(--bg-3);
   box-shadow: var(--shadow);
+}
+
+.hero__photo picture {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .hero__photo img {
