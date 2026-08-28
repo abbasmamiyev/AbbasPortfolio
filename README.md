@@ -60,7 +60,7 @@ src/
 
 Sayt tam SEO hazırlığı ilə gəlir: canonical, hreflang (az/en/ru), Open Graph + Twitter kartları, JSON-LD Person schema, `robots.txt`, `sitemap.xml`, `site.webmanifest`, WebP şəkillər, dinamik title/description (dilə görə dəyişir), `?lang=` parametrli paylaşıla bilən dil linkləri.
 
-**Deploy-dan sonra MÜTLƏQ:** `abbasmamiyev.netlify.app` placeholder domenini real ünvanınla əvəz et — 3 faylda:
+**Sayt ünvanı:** `https://vahidoghlu.netlify.app` — bu ünvan 3 faylda yazılıb. Öz domenini alsan, hər üçündə əvəz et:
 1. `index.html` (canonical, hreflang, og:url, og:image, JSON-LD)
 2. `public/robots.txt` (Sitemap sətri)
 3. `public/sitemap.xml` (bütün URL-lər)

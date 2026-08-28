@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abbasmamiyev.netlify.app/sitemap.xml
+Sitemap: https://vahidoghlu.netlify.app/sitemap.xml
